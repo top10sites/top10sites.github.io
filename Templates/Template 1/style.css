@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background: url(Imagens/manha.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navegacao {
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+
+.logo {
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+
+.navegacao ul {
+    float: right;
+    margin-right: 20px;
+}
+
+.navegacao ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+
+.navegacao ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 6px 13px;
+    font-family: 'Roboto', sans-serif;
+    transition: .4s;
+}
+
+.navegacao ul li a.ativar,
+.navegacao ul li a:hover {
+    background: red;
+    border-radius: 2px;
+}
+
+.container .centro {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.centro h1 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+
+.centro h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    width: 885px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.centro .botoes {
+    margin: 35px 280px;
+}
+
+.botoes button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffb3b3;
+    background-color: red;
+    border: 1px solid #cc0000;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    transition: .5s;
+}
+
+.botoes .btn {
+    margin-left: 25px;
+}
+
+.botoes button:hover {
+    background: #cc0000;
+}
