@@ -4,9 +4,10 @@
 }
 
 main {
-    background-image: url(paginicial.png);
+    background-image: url(/imgs/paginicial.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     height: 92vh;
 }
+
