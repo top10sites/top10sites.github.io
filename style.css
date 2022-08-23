@@ -25,10 +25,8 @@ a:hover {
 }
 
 /*Aplicando logo temporária*/
-.logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
+.logo img{
+   height: 6vh;
 }
 
 /*Estilizando todo o nav*/
@@ -64,3 +62,4 @@ nav {
 .menu li:hover::after {
     opacity: 1;
 }
+
