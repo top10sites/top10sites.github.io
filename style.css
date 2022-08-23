@@ -1,8 +1,10 @@
+/* tirando margens do código */
 *{
     margin: 0;
     padding: 0;
 }
 
+/*Aplicando o background pra não se repetir e definindo o tamanho para espaçamento ideal do menu*/
 main {
     background-image: url(/imgs/paginicial.png);
     background-repeat: no-repeat;
@@ -11,3 +13,29 @@ main {
     height: 92vh;
 }
 
+/*Tratando formas de links e tirando o tipo de texto*/
+a{
+    color: white;
+    text-decoration: none;
+    transition: 0.2;
+}
+
+a:hover{
+    opacity: 0.5;
+}
+
+/*Aplicando logo temporária*/
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/*Estilizando todo o nav*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #263868;
+}
