@@ -5,8 +5,8 @@
 }
 
 /*Aplicando o background pra não se repetir e definindo o tamanho para espaçamento ideal do menu*/
-main {
-    background-image: url(/imgs/paginicial.png);
+#mainInicial {
+    background-image: url(./imgs/paginicial.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -62,4 +62,5 @@ nav {
 .menu li:hover::after {
     opacity: 1;
 }
+
 
