@@ -26,8 +26,8 @@ a:hover {
 }
 
 /*Aplicando logo temporária*/
-.logo img{
-   height: 6vh;
+.logo img {
+    height: 6vh;
 }
 
 /*Estilizando todo o nav*/
@@ -64,29 +64,46 @@ nav {
     opacity: 1;
 }
 
-/*Página de hospedagem*/
+/*[[Página de hospedagem]]*/
 
-#mainHospedagem{
+/*Centralizando os planos e colocando um ao lado do outro*/
+.mainHospedagem {
     box-sizing: border-box;
     min-height: 92vh;
     display: flex;
     align-items: center;
 }
 
-.precoDeHospedagem{
+.precoDeHospedagem {
+    background-color: #142a64;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: auto;
 }
 
-.planos{
+
+.planos {
+    color: white;
     flex: 1;
     max-width: 360px;
     margin: 20px 10px;
+    width: min(1600px, 92vh);
     text-align: center;
     overflow: hidden;
     transition: .2s linear;
 }
 
+.planos:hover .tituloPlano{
+    box-shadow: 0 0 0 26em #ffdb15;
+}
 
+.tituloPlano{
+    background-color: #f4b800;
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 0 0 20px 20px;
+    font-size: 16px;
+    font-weight: 600px;
+    transition: .5s line;
+}
