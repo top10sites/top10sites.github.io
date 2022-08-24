@@ -8,7 +8,7 @@
     display: flex;
     height: 100vh;
     align-items: center;
-    background-color: #a600ff;
+    background-color: black;
     color: white;
 }
 
@@ -23,6 +23,19 @@
     align-items: center; */
     width: 80%;
     height: 100%;
+}
+
+.conteudo-principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.texto-principal{
+    width: 50%;
+    padding: 5%;
+    font-size: 150%;
 }
 
 .formulario {
@@ -51,7 +64,7 @@ h3{
 button{
     font-size: 150%;
     color: white;
-    background-color: #9000de;
+    background-color: #de6f00;
     border-radius: 10px;
     padding: 10px;
     cursor: pointer;
@@ -60,16 +73,16 @@ button{
 
 button:hover{
     background-color: white;
-    color: #9000de;
+    color: #de6f00;
 }
 
 ::placeholder{
     color: #ddd;
 }
 
-.inputTexto{
+.input-texto{
     font-size: 150%;
-    background-color: #9000de;
+    background-color: #de6f00;
     color: white;
     padding: 10px;
     border: 1px black solid;
@@ -78,8 +91,14 @@ button:hover{
 
 .pesquisa{
     align-self: flex-end;
-    margin-top: 2%;
-    margin-right: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lupa{
+    width: 5%;
+    margin: 2%;
 }
 
 .navegacao{
@@ -91,7 +110,7 @@ button:hover{
     font-size: 150%;
     width: 20%;
     height: 100%;
-    background-color: #9000de;
+    background-color: #de6f00;
     border-right: 1px solid white;
 }
 
