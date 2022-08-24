@@ -67,38 +67,46 @@ nav {
 /*[[Página de hospedagem]]*/
 
 /*Centralizando os planos e colocando um ao lado do outro*/
+
+#hospedagem{
+align-items: center;
+}
+
 .mainHospedagem {
-    box-sizing: border-box;
     min-height: 92vh;
+    box-sizing: border-box;
     display: flex;
-    align-items: center;
+
 }
 
 .precoDeHospedagem {
+    min-width: 360px;
+    max-width: 600px;
     background-color: #142a64;
     display: flex;
     flex-wrap: wrap;
+    width: min(1600px, 100%);
     justify-content: space-around;
     margin: auto;
 }
 
 
 .planos {
+    cursor: pointer;
     color: white;
     flex: 1;
     max-width: 360px;
     margin: 20px 10px;
-    width: min(1600px, 92vh);
     text-align: center;
     overflow: hidden;
     transition: .2s linear;
 }
 
-.planos:hover .tituloPlano{
+.planos:hover .tituloPlano {
     box-shadow: 0 0 0 26em #ffdb15;
 }
 
-.tituloPlano{
+.tituloPlano {
     background-color: #f4b800;
     display: inline-block;
     padding: 12px 30px;
@@ -106,4 +114,11 @@ nav {
     font-size: 16px;
     font-weight: 600px;
     transition: .5s line;
+}
+
+.precoPlano {
+    font-size: 70px;
+    color: yellow;
+    margin: 40px 0;
+    transition: .2s linear;
 }
