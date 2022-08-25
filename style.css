@@ -68,57 +68,90 @@ nav {
 
 /*Centralizando os planos e colocando um ao lado do outro*/
 
-#hospedagem{
-align-items: center;
-}
-
 .mainHospedagem {
-    min-height: 92vh;
     box-sizing: border-box;
-    display: flex;
+	min-height: 92vh;
+	display: flex;
+	align-items: center;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 
+/*organizando tamanho da tabela de preços para ficar tudo igual*/
 .precoDeHospedagem {
-    min-width: 360px;
-    max-width: 600px;
     background-color: #142a64;
     display: flex;
     flex-wrap: wrap;
-    width: min(1600px, 100%);
+    min-height: 595px;
+    max-height: 600px;
+    min-width: 355px;
+    max-width: 360px;
     justify-content: space-around;
     margin: auto;
 }
 
 
 .planos {
-    cursor: pointer;
+    
     color: white;
     flex: 1;
     max-width: 360px;
     margin: 20px 10px;
     text-align: center;
     overflow: hidden;
-    transition: .2s linear;
+    transition: .8s linear;
 }
 
+/*Adicionando animação no*/
 .planos:hover .tituloPlano {
-    box-shadow: 0 0 0 26em #ffdb15;
+    box-shadow: 0 0 0 24em #152d6c;
 }
 
+/*Adicionando animação no título e colocando bordas de background*/
 .tituloPlano {
     background-color: #f4b800;
     display: inline-block;
     padding: 12px 30px;
     border-radius: 0 0 20px 20px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600px;
-    transition: .5s line;
+    transition: .7s line;
 }
 
+/*Ajustando cor e tamanho do preço*/
 .precoPlano {
-    font-size: 70px;
+    font-size: 60px;
     color: yellow;
     margin: 40px 0;
-    transition: .2s linear;
+    transition: .8s linear;
+}
+
+
+.planos:hover, .planos:hover .precoPlano
+{
+	color: white;
+}
+
+/*Deixando a lista em maiusculo*/
+.planos li{
+    font-size: 16px;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+/*Estilizando o botão e adicionando animação*/
+#assinarPlano{
+    cursor: pointer;
+    padding: 18px 40px;
+    color: #183fa7;
+    display: inline-block;
+	border: 2px solid #183fa7;
+	border-radius:  8px;
+	font-weight: 600;
+	transition:  .3s linear;
+}
+
+#assinarPlano:hover{
+    transform: scale(1.05, 1.05);
+    color: white;
 }
