@@ -162,3 +162,25 @@ nav {
     align-items: center;
     height: 92vh;
 }
+
+.formulario-contratar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 200%;
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+.formulario-contratar-input{
+    font-size: 100%;
+    width: 100%;
+}
+
+.formulario-contratar-button{
+    background-color: #263868;
+    color: white;
+    border-radius: 10px;
+    font-size: 100%;
+    width: 40%;
+} 
