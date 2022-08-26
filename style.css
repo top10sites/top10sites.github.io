@@ -158,6 +158,7 @@ nav {
 
 .contratar{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 92vh;
@@ -184,3 +185,10 @@ nav {
     font-size: 100%;
     width: 40%;
 } 
+
+.formulario-enviado{
+    font-size: 300%;
+    background-color: #263868;
+    color: white;
+    border-radius: 10px;
+}
