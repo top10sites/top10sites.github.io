@@ -184,6 +184,7 @@ nav {
     border-radius: 10px;
     font-size: 100%;
     width: 40%;
+    transition: 0.3s;
 } 
 
 .formulario-enviado{
@@ -192,3 +193,12 @@ nav {
     color: white;
     border-radius: 10px;
 }
+
+.formulario-contratar-button:hover{
+    background-color: white;
+    color: #263868;
+    border-radius: 10px;
+    font-size: 100%;
+    width: 40%;
+    cursor: pointer;
+} 
