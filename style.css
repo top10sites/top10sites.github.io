@@ -92,7 +92,6 @@ nav {
 
 
 .planos {
-    
     color: white;
     flex: 1;
     max-width: 360px;
@@ -202,3 +201,28 @@ nav {
     width: 40%;
     cursor: pointer;
 } 
+
+/*Catálogo*/
+
+.imgsTemplates{
+    text-align: center;
+    max-height: 92vh;
+    margin-top: 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#imgTemplates{
+    max-height: 92vh;
+    margin-top: 2rem;
+    width: 70rem;
+}
+#buttonTemplates{
+    position: relative;
+    max-height: 0vh;
+}
+#texttp{
+    margin-top: 2rem;
+}
+#desctp{
+    font-size: 1rem;
+}
