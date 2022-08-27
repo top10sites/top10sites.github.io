@@ -155,6 +155,53 @@ nav {
     color: white;
 }
 
+.contratar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+.formulario-contratar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 200%;
+    width: 60%;
+    margin-bottom: 10%;
+}
+
+.formulario-contratar-input{
+    font-size: 100%;
+    width: 100%;
+}
+
+.formulario-contratar-button{
+    background-color: #263868;
+    color: white;
+    border-radius: 10px;
+    font-size: 100%;
+    width: 40%;
+    transition: 0.3s;
+} 
+
+.formulario-enviado{
+    font-size: 300%;
+    background-color: #263868;
+    color: white;
+    border-radius: 10px;
+}
+
+.formulario-contratar-button:hover{
+    background-color: white;
+    color: #263868;
+    border-radius: 10px;
+    font-size: 100%;
+    width: 40%;
+    cursor: pointer;
+} 
+
 /*Catálogo*/
 
 .imgsTemplates{
